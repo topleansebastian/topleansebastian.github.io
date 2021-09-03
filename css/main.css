@@ -56,6 +56,8 @@ a.blackText{
     background-color:var(--black);
 }
 
+
+
 .delimiterRight{
     border-right: 1px solid var(--black)
 }
@@ -67,197 +69,30 @@ a.blackText{
 .linkBtn:hover{
     background-color: lightblue;
 }
-body{
-background-color: black;
-}
 
 
-
-.menuOption {
+.menuOption{
+   
+    box-sizing: content-box;
+    padding-right: 1rem;
     -ms-transform-origin: center;
     -webkit-transform-origin: center;
     transform-origin: center;
-    margin-right: 48px;
+      
+    background-color: rgba(255, 255, 255, 0);
     text-align: center;
+    letter-spacing: 0.00px;
+    color: rgba(255, 255, 255, 1);
     -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-    font-size:20px;
+    font-size: 20.00px;
+    font-weight: 400;
+    font-style: normal;
     font-family: Lato, Arial;
     text-decoration: none;
     box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
     white-space: pre;
-    align-self:center;
-    color:white;
+    width: 96.00px;
+    height: 24.00px;
 }
-.menuOptionLast{
-   
-    margin-right: 0px;
-    
-}
-.joinNowBtn{
-    background-color: red;
-    padding:7px 35px;
-    border-radius: 5px;
-}
-div{
-    color:black;
-}
-/* @media screen and (min-width:900px) {
-    
-    .menuContainer{
-        display:flex;
-        padding-left:0;
-    }
-    
-    .collapsableMenuContainer{
-        display:flex;
-        
-    }
-    
-    .topsoft-menu{
-        background-color: black;
-        display: flex;
-        height:100px;
-    }
-    
-    
-    
-    
-} */
-
-.menuOption{
-    cursor: pointer;
-    text-decoration: none;
-}
-a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
-}
-.topsoftSystems32a3aea8-0 {
-    cursor: pointer;
-    color: rgba(255, 255, 255, 1);
-        font-weight: 400;
-        font-style: normal;
-        font-size: 36px;
-        font-family: 'SF UI Display', Arial;
-        letter-spacing: 2px;
-        text-decoration: none;
-        align-self: center;
-}
-
-@media screen and (min-width:0px) {
-
-    .topsoftSystems32a3aea8-0 {
-        margin-left: 10%;
-        min-width: 200px;
-    }
-
-    
-    .menuContainer{
-        display:block;
-        padding-left:5vw;
-    }
-    
-    .collapsableMenuContainer{
-        display:block;
-        width: 100%;     
-    }
-
-    
-    
-    .topsoft-menu{
-        background-color: black;
-        display: flex;
-        height:auto;
-    }
-
-    .menuOption {
-        -ms-transform-origin: center;
-        -webkit-transform-origin: center;
-        transform-origin: center;
-        width: 100%;
-        text-align: center;
-        -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-        font-size:20px;
-        font-family: Lato, Arial;
-        text-decoration: none;
-        box-shadow: none;
-        white-space: pre;
-        align-self:center;
-        color:white;
-    }
-
-
-}
-
-
-
-@media screen and (min-width:1290px) {
-    .topsoftSystems32a3aea8-0 {     
-        margin-left: 110px;
-        min-width: 310px;
-    }
-    
-
-    .menuOption {
-        -ms-transform-origin: center;
-        -webkit-transform-origin: center;
-        transform-origin: center;
-        margin-right: 48px;
-        text-align: center;
-        -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-        font-size:20px;
-        font-family: Lato, Arial;
-        text-decoration: none;
-        box-shadow: none;
-        white-space: pre;
-        align-self:center;
-        color:white;
-    }
-    .menuContainer{
-        display:flex;
-        padding-left:5vw;
-    }
-    
-    .collapsableMenuContainer{
-        display:flex;
-        
-    }
-    
-    .topsoft-menu{
-        background-color: black;
-        display: flex;
-        height:100px;
-    }
-}
-
-@media screen and (min-width:1385px) {
-    .menuContainer{
-        display:flex;
-        padding-left:8vw;
-    }
-}
-
-@media screen and (min-width:1490px) {
-    .menuContainer{
-        display:flex;
-        padding-left:11vw;
-    }
-}
-
-@media screen and (min-width:1620px) {
-    .menuContainer{
-        display:flex;
-        padding-left:14vw;
-    }   
-}
-
-@media screen and (min-width:1765px) {
-    .menuContainer{
-        display:flex;
-        padding-left:17vw;
-    }
-}
-
-
-
-

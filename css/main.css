@@ -96,3 +96,35 @@ a.blackText{
     width: 96.00px;
     height: 24.00px;
 }
+
+.text1{
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    font-size: 50.00px;
+    font-family: Montserrat, Arial;
+    
+    letter-spacing: 7.50px;
+}
+
+.text2{
+    
+    box-sizing: content-box;
+    text-align: justify;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+
+    background-color: rgba(255, 255, 255, 0);
+    padding-top: 3rem;
+    padding-right:1rem;
+    letter-spacing: 1.00px;
+    color: rgba(0, 0, 0, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 20.00px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Montserrat, Arial;
+
+     
+   
+}

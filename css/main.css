@@ -128,3 +128,94 @@ a.blackText{
      
    
 }
+
+.textCenter{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.subscription{
+    text-align: center;
+    
+}
+
+.subscription .subscriptionType{
+    
+    box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    letter-spacing: 0.00px;
+    color: rgba(0, 0, 0, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 35.00px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: Lato, Arial;
+
+
+    padding-top: 4rem;
+  
+}
+
+.subscription .subscriptionInfo{
+   
+      box-sizing: content-box;
+    
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    
+    background-color: rgba(255, 255, 255, 0);
+    letter-spacing: 0.50px;
+    color: rgba(0, 0, 0, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 20.00px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: Lato, Arial;
+}
+
+.subscription .subscriptionInfo:nth-child(3){
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.subscription .padding{
+    padding-bottom: 6rem;
+}
+
+.paperCard{
+    width:80%;
+    border-radius: 7% !important;
+}
+
+.cardBtn{
+    
+    width: 10rem;
+    height: 3rem;
+    font-weight: bold !important;
+    color:var(--black) !important;
+}
+
+.actionBtnContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.actionBtn{
+    padding: 0rem 0.5rem;
+}
+
+.buySubscriptionBtn{
+    background-color: rgba(13, 137, 253, 1) !important;
+    padding:0 1rem
+}
+.trySubscriptionBtn{
+    background-color: var(--viridianGreen) !important;
+}

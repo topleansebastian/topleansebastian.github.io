@@ -223,3 +223,12 @@ a.blackText{
 .trySubscriptionBtn{
     background-color: var(--viridianGreen) !important;
 }
+
+.btnFont{
+    font-weight: bold !important;
+    color:var(--black) !important;
+}
+
+.importantWhite:first-child{
+    color:var(--white) !important;
+}

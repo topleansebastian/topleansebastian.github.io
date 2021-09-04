@@ -1,0 +1,12 @@
+:root {
+    --white: #F3F7F7;
+    --blue: #4189a6;
+    --viridianGreen: #2b818c;
+    --blueGrey:#405663;
+    --black:#1c1f22;
+}
+
+.footer{
+    background-color: var(--black);
+    color:var(--white)
+}

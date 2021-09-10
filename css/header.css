@@ -1,4 +1,4 @@
-.dropdown-menu{
+[aria-labelledby='navbarScrollingDropdown']{
    width:7rem;
    min-width: 3rem !important;
    
@@ -6,4 +6,18 @@
 
 .activeFlag{
     background-color: lawngreen !important;
+}
+
+.dropdown-toggle::after{
+    color:white !important;
+}
+
+.dropdown-item a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.dropdown-item a:hover {
+    color: #000000;
+    text-decoration: none;
 }
